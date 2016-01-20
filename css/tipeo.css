@@ -40,7 +40,7 @@
 	padding: 3px 20px;
 }
 .tt-suggestion.tt-is-under-cursor {
-	background-color: #0097CF;
+	background-color: blue  !important;/*antes #0097CF #484d7f */
 	color: #FFFFFF;
 }
 .tt-suggestion p {

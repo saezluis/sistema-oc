@@ -1,7 +1,8 @@
 header{
 	a.logo{
 		width: 100%;
-		height: auto;
+		height: 112px;
+
 		display: block;
 	}
 
@@ -20,7 +21,7 @@ header{
 	position: absolute;
 	right:0;
 	text-align:center;
-	background: transparent linear-gradient(to bottom, #FF1500 0%, #C0000B 100%) repeat scroll 0% 0%;
+	background: transparent linear-gradient(to bottom, #3d416b 0%, #2b2d44 100%) repeat scroll 0% 0%;
 
 	}
 
@@ -46,7 +47,7 @@ header{
 			text-decoration: none;
 			background: url(../img/bg-menu.jpg) repeat-x;
 			&:hover{
-				color: $red;
+				color: #3d416b;
 			}
 		}
 	}
@@ -70,16 +71,19 @@ header{
 	}
 
 	.active{
-		color: $red;
+		color: $royal-1;
 	}
 }
 
 header.cotizacion{
 	#cot--logo{
-		width: 120px;
-		height: 117px;
+		width: 240px;//antes 120
+		height: 117px;//antes 117
 		float: left;
     	margin-top: 20px;
+    	img{
+    		margin-top: 40px;
+    	}
 	}
 	#cotiza--datos{
 		// float: left;

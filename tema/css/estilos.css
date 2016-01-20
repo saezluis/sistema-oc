@@ -1638,7 +1638,7 @@ h6 {
 
 header a.logo {
   width: 100%;
-  height: auto;
+  height: 112px;
   display: block; }
 header .logout {
   margin-bottom: 10px;
@@ -1649,7 +1649,7 @@ header .logout {
   position: absolute;
   right: 0;
   text-align: center;
-  background: transparent linear-gradient(to bottom, #FF1500 0%, #C0000B 100%) repeat scroll 0% 0%; }
+  background: transparent linear-gradient(to bottom, #3d416b 0%, #2b2d44 100%) repeat scroll 0% 0%; }
 header nav {
   width: 60%;
   margin-top: 80px;
@@ -1670,7 +1670,7 @@ header nav {
     text-decoration: none;
     background: url(../img/bg-menu.jpg) repeat-x; }
     header nav a:hover {
-      color: #cf0508; }
+      color: #3d416b; }
 header .counter {
   width: 25px;
   height: 25px;
@@ -1687,13 +1687,15 @@ header h2 {
   font-size: 1.2em;
   margin: 0; }
 header .active {
-  color: #cf0508; }
+  color: #3d416b; }
 
 header.cotizacion #cot--logo {
-  width: 120px;
+  width: 240px;
   height: 117px;
   float: left;
   margin-top: 20px; }
+  header.cotizacion #cot--logo img {
+    margin-top: 40px; }
 header.cotizacion #cotiza--datos {
   margin-top: 40px;
   margin-left: 30px; }
@@ -1741,7 +1743,7 @@ header.cotizacion p.coti--fecha {
 #footer {
   background: #e8e8e8;
   margin-top: 25px;
-  height: 80px; }
+  height: 55px; }
   #footer #logo-footer, #footer #copy {
     float: left;
     width: 50%; }
@@ -1750,11 +1752,11 @@ header.cotizacion p.coti--fecha {
   #footer #copy p {
     color: #6e6e6e;
     text-align: right;
-    line-height: 6;
+    line-height: 55px;
     font-size: 0.8em; }
 
 #log {
-  width: 278px;
+  width: 373px;
   height: auto;
   position: absolute;
   left: 50%;
@@ -1785,23 +1787,15 @@ header.cotizacion p.coti--fecha {
       color: #fff;
       width: 100%;
       padding: 6px 14px;
-      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff1500+0,c0000b+100 */
-      background: #ff1500;
-      /* Old browsers */
-      background: -moz-linear-gradient(top, #ff1500 0%, #c0000b 100%);
-      /* FF3.6+ */
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff1500), color-stop(100%, #c0000b));
-      /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(top, #ff1500 0%, #c0000b 100%);
-      /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(top, #ff1500 0%, #c0000b 100%);
-      /* Opera 11.10+ */
-      background: -ms-linear-gradient(top, #ff1500 0%, #c0000b 100%);
-      /* IE10+ */
-      background: linear-gradient(to bottom, #ff1500 0%, #c0000b 100%);
-      /* W3C */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1500', endColorstr='#c0000b',GradientType=0 );
-      /* IE6-9 */ }
+      background: #3d416b;
+      background: -moz-linear-gradient(top, #3d416b 0%, #2b2d44 73%, #2b2d44 100%);
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, #3d416b), color-stop(73%, #2b2d44), color-stop(100%, #2b2d44));
+      background: -webkit-linear-gradient(top, #3d416b 0%, #2b2d44 73%, #2b2d44 100%);
+      background: -o-linear-gradient(top, #3d416b 0%, #2b2d44 73%, #2b2d44 100%);
+      background: -ms-linear-gradient(top, #3d416b 0%, #2b2d44 73%, #2b2d44 100%);
+      background: linear-gradient(to bottom, #3d416b 0%, #2b2d44 73%, #2b2d44 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d416b', endColorstr='#2b2d44', GradientType=0 );
+      cursor: pointer; }
     #log .login a {
       font-size: 0.7em;
       text-align: left;
@@ -1868,7 +1862,7 @@ header.cotizacion p.coti--fecha {
     width: 100%;
     display: block;
     margin: 15px 0;
-    color: #cf0508;
+    color: #2b2d44;
     font-weight: 800;
     font-size: 0.8em;
     -webkit-transition: all 0.30s ease-in-out;
@@ -1914,23 +1908,7 @@ header.cotizacion p.coti--fecha {
     padding: 6px;
     margin-top: 33px;
     font-size: 0.8em;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff1500+0,c0000b+100 */
-    background: #ff1500;
-    /* Old browsers */
-    background: -moz-linear-gradient(top, #ff1500 0%, #c0000b 100%);
-    /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff1500), color-stop(100%, #c0000b));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #ff1500 0%, #c0000b 100%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #ff1500 0%, #c0000b 100%);
-    /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #ff1500 0%, #c0000b 100%);
-    /* IE10+ */
-    background: linear-gradient(to bottom, #ff1500 0%, #c0000b 100%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1500', endColorstr='#c0000b',GradientType=0 );
-    /* IE6-9 */
+    background: transparent linear-gradient(to bottom, #3d416b 0%, #2b2d44 100%) repeat scroll 0% 0%;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -2261,7 +2239,7 @@ header.cotizacion p.coti--fecha {
     text-align: center;
     background: #e8e8e8;
     padding: 12px;
-    color: #cf0508;
+    color: #3d416b;
     height: 50px;
     font-size: 0.9em;
     border-top: 1px solid #cccccc;
@@ -2775,26 +2753,7 @@ header.cotizacion p.coti--fecha {
     padding: 6px;
     margin-top: 33px;
     font-size: 0.8em;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff1500+0,c0000b+100 */
-    background: #ff1500;
-    /* Old browsers */
-    background: -moz-linear-gradient(top, #ff1500 0%, #c0000b 100%);
-    /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff1500), color-stop(100%, #c0000b));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #ff1500 0%, #c0000b 100%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #ff1500 0%, #c0000b 100%);
-    /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #ff1500 0%, #c0000b 100%);
-    /* IE10+ */
-    background: linear-gradient(to bottom, #ff1500 0%, #c0000b 100%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1500', endColorstr='#c0000b',GradientType=0 );
-    /* IE6-9 */
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px; }
+    background: #3d416b; }
 
 #neto2 {
   width: 100%;

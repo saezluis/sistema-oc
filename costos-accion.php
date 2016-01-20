@@ -390,7 +390,7 @@ exit;
       <div class="grupo">
         <div id="logo-footer" class="caja-50"><img src="tema/img/logo-footer.png" alt=""></div>
         <div id="copy" class="caja-50">
-          <p>© 2016 Easy S.A.</p>
+          <p>© 2016 Royal Rental S.A.</p>
         </div>
       </div>
     </div>

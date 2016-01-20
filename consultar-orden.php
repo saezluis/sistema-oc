@@ -371,12 +371,12 @@ $consulta_orden=mysqli_query($conexion,"select * from ordenes where numero_orden
 	<header class="cotizacion grupo">
 			
 		<div class="caja base-50 no-padding">
-			<div id="cot--logo"> <img src="tema/img/logo.gif" alt="POC"></div>
+			<div id="cot--logo"> <img src="tema/img/logo-royal-multi.jpg" alt=""></div>
 			<div id="cotiza--datos">
-				<p class="data--sa">Easy s.a.</p>
-				<p class="data--co">96.671.750-5</p>
-				<p class="data--co">Av. Keneddy 09001, piso 5, Las Condes</p>
-				<p class="data--co">9590300</p>
+				<p class="data--sa">Royal Rental s.a.</p>
+				<p class="data--co">00.000.000-0</p>
+				<p class="data--co">Alcalde Guzmán 1391,Quilicura</p>
+				<p class="data--co">000000</p>
 			</div>
 		</div>
       <div class="caja base-50 no-padding">

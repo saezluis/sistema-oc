@@ -111,7 +111,7 @@ exit;
 		padding: 3px 20px;
 	}
 	.tt-suggestion.tt-is-under-cursor {
-		background-color: #ED1B24;
+		background-color: #40435c;
 		color: #FFFFFF;
 	}
 	.tt-suggestion p {
@@ -239,7 +239,7 @@ exit;
 	?>
     <header class="grupo">
       <div class="caja base-50 no-padding">
-        <h1> <a href="#" class="logo"> <img src="tema/img/logo.jpg" alt="POC"></a></h1>
+        <h1> <a href="#" class="logo"> <img src="tema/img/logo-royal-multi.jpg" alt=""></a></h1>
       </div>
       <div class="caja base-50 no-padding">
       	<a class="logout" href="logout.php" >Logout</a>
@@ -493,9 +493,9 @@ exit;
         
     <div id="footer" class="total">
       <div class="grupo">
-        <div id="logo-footer" class="caja-50"><img src="tema/img/logo-footer.png" alt=""></div>
+        <div id="logo-footer" class="caja-50"><img src="tema/img/logo-royal-footer.png" alt=""></div>
         <div id="copy" class="caja-50">
-          <p>© 2015 Easy S.A.</p>
+          <p>© 2015 Royal Rental S.A.</p>
         </div>
       </div>
     </div>

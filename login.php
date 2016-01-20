@@ -26,7 +26,7 @@
 	-->
   </head>
   <body>
-    <div id="log"><img src="tema/img/login.png" alt="">
+    <div id="log"><img src="tema/img/logo-royal-multi.jpg" alt="">
       <form id="" method="post" action="checklogin.php" class="login">
         <label for="correo">Ingresa tu correo</label>
         <input name="myusername" type="text" id="myusername" placeholder="ej: usuario@algo.cl">

@@ -146,7 +146,7 @@
 		  echo "<div id=\"orden--5\">".$registro['orden_recepcion']."<span class=\"no\"><img src=\"tema/img/$visto_bd.gif\" alt=\"\"></span>"."</div>";		  
 		  //Aqui manipulo la fecha para que si pasa de 5 dias se muestre en rojo
 		  if ($days>=5){
-			echo "<div id=\"orden--6T\" style=\"color:#FF0000 \">".$days." dias"."</div>";
+			echo "<div id=\"orden--6T\" style=\"color:#000; \">".$days." dias"."</div>";
 		  } else {
 			  echo "<div id=\"orden--6T\" >".$days." dias"."</div>";
 		  }		  
@@ -207,7 +207,7 @@
 		  echo "<div id=\"orden--5\">".$reg['orden_recepcion']."<span class=\"no\"><img src=\"tema/img/$visto_bd.gif\" alt=\"\"></span>"."</div>";		  
 		  //Aqui manipulo la fecha para que si pasa de 5 dias se muestre en rojo
 		  if ($days>=5){
-			echo "<div id=\"orden--6T\" style=\"color:#FF0000 \">".$days." dias"."</div>";
+			echo "<div id=\"orden--6T\" style=\"color:#000 \">".$days." dias"."</div>";
 		  } else {
 			  echo "<div id=\"orden--6T\" >".$days." dias"."</div>";
 		  }		  
@@ -253,7 +253,7 @@
       <div class="grupo">
         <div id="logo-footer" class="caja-50"><img src="tema/img/logo-footer.png" alt=""></div>
         <div id="copy" class="caja-50">
-          <p>© 2015 Easy S.A.</p>
+          <p>© 2016 Royal Rental S.A.</p>
         </div>
       </div>
     </div>

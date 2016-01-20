@@ -41,7 +41,7 @@ exit;
   
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximun-scale=1">
-    <link rel="stylesheet" href="tema/css/prueba.css">	
+    <link rel="stylesheet" href="tema/css/estilos.css">	
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="tema/js/scripts.js"></script>
 	
@@ -334,7 +334,7 @@ exit;
 	
 	<header class="grupo">
       <div class="caja base-50 no-padding">
-        <h1> <a href="#" class="logo"> <img src="tema/img/logo.jpg" alt="POC"></a></h1>
+        <h1> <a href="#" class="logo"> <img src="tema/img/logo-royal-multi.jpg" alt=""></a></h1>
       </div>
       <div class="caja base-50 no-padding">
         <nav>
